@@ -1,5 +1,8 @@
 from adventure_game.game import *
 
-game = AdventureGame(10, 8)
+max_x = 10
+max_y = 8
 
-game.display_game()
+game = AdventureGame(max_x, max_y)
+
+game.play()
